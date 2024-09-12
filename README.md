@@ -122,6 +122,10 @@ Users who speak multiple languages often set their device language to one langua
 to use other languages for certain apps, like Polish, Dutch, or French. To help apps provide a better experience for
 these users, this package adds the ability to set language preferences for individual apps in the device's settings.
 
+## Publish to GitHub Packages
+    npm login --scope=@hortau --auth-type=legacy --registry=https://npm.pkg.github.com
+    npm publish --access public
+
 ## License
 
 [MIT](LICENSE)
